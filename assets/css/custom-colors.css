@@ -1,0 +1,78 @@
+:root {
+  /* Primary Colors */
+  --tc-theme-primary: #4169E1; /* Royal Blue */
+  --tc-theme-secondary: #1E3A8A; /* Dark Blue */
+  --tc-system-white: #FFFFFF; /* White */
+  
+  /* Bootstrap Primary Overrides */
+  --bs-primary: #4169E1; /* Royal Blue */
+  --bs-primary-rgb: 65, 105, 225; /* Royal Blue RGB */
+  
+  /* Additional Colors */
+  --tc-theme-dark: #0F172A; /* Darker Blue for backgrounds */
+  --tc-theme-light: #F8FAFC; /* Light background */
+  --tc-body-text: #334155; /* Dark text */
+  --tc-body-text-secondary: #64748B; /* Secondary text */
+  --tc-system-stroke: #E2E8F0; /* Border color */
+  --tc-system-black: #0F172A; /* Dark text */
+  --tc-bg-light: #F1F5F9; /* Light background */
+}
+
+/* Override specific component colors */
+.btn-primary {
+  background-color: var(--tc-theme-primary);
+  border-color: var(--tc-theme-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--tc-theme-secondary);
+  border-color: var(--tc-theme-secondary);
+}
+
+.navbar-transparent .navbar-nav .nav-item .nav-link {
+  color: var(--tc-system-white);
+}
+
+.navbar-transparent .navbar-nav .nav-item .nav-link:hover,
+.navbar-transparent .navbar-nav .nav-item .nav-link.active {
+  color: var(--tc-theme-primary);
+}
+
+.fill-primary path {
+  fill: var(--tc-theme-primary);
+}
+
+.stroke-primary path {
+  stroke: var(--tc-theme-primary);
+}
+
+/* Background colors */
+.bg-dark {
+  background-color: var(--tc-theme-dark) !important;
+}
+
+.bg-light {
+  background-color: var(--tc-theme-light) !important;
+}
+
+/* Text colors */
+.text-primary {
+  color: var(--tc-theme-primary) !important;
+}
+
+.text-secondary {
+  color: var(--tc-theme-secondary) !important;
+}
+
+.text-white {
+  color: var(--tc-system-white) !important;
+}
+
+/* Border colors */
+.border-primary {
+  border-color: var(--tc-theme-primary) !important;
+}
+
+.border-secondary {
+  border-color: var(--tc-theme-secondary) !important;
+}

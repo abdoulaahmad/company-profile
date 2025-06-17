@@ -1,0 +1,755 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!--prettier-ignore-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Astra-X - Multi-purpose Bootstrap 5 Template</title>
+    <!-- Favicon icon-->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/template/favicon.svg" />
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/aos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/carouselTicker.css" />
+    <link rel="stylesheet" href="assets/css/vendors/odometer.css" />
+    <link rel="stylesheet" href="assets/css/vendors/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/fonts/bootstrap-icons/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="assets/fonts/boxicons/boxicons.min.css" />
+    <link rel="stylesheet" href="assets/fonts/remixicon/remixicon.css" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome/solid.min.css" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome/regular.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/custom-colors.css" />
+</head>
+
+<body class="fintech-app custom-cursor">
+    <!--prettier-ignore-->
+    <!--Preloader-->
+    <div id="preloader">
+        <div id="loader" class="loader">
+            <div class="loader-container">
+                <div class="loader-icon">
+                    <svg class="rotateme" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <g>
+                            <path class="fill-primary" d="M24.5043 9.79724L22.7082 18.3981L35.2929 17.1948L37.1117 7.00605L24.5043 9.79724Z" />
+                            <path class="fill-primary" d="M31.9171 17.6837L23.2697 20.6189L30.6333 30.3865L40.723 26.6545L31.9171 17.6837Z" />
+                            <path class="fill-primary" d="M28.4204 27.86L21.4605 22.2312L16.332 33.3249L24.7296 39.7347L28.4204 27.86Z" />
+                            <path class="fill-primary" d="M17.5913 29.998L19.1912 21.3633L6.63465 22.8288L5.04812 33.0511L17.5913 29.998Z" />
+                            <path class="fill-primary" d="M10.2917 22.1777L18.8717 19.0632L11.2859 9.45346L1.28177 13.3945L10.2917 22.1777Z" />
+                            <path class="fill-primary" d="M13.7243 12.2243L20.8121 17.7054L25.6875 6.50938L17.1442 0.277556L13.7243 12.2243Z" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Preloader-end -->
+
+    <!--custom-cursor-->
+    <div class="follower"></div>
+    <div class="custom-cursor-cover">
+        <span class="dot"></span>
+    </div>
+    <!--custom-cursor-end -->
+    <!-- Navbar -->
+    <header>
+        <div class="position-absolute top-0 start-0 w-100">
+            <nav class="navbar navbar-expand-lg navbar-transparent z-5 p-0 shadow-none">
+                <div class="container">
+                    <a class="navbar-brand py-5" href="index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <g>
+                                <path class="fill-primary" d="M24.5043 9.79724L22.7082 18.3981L35.2929 17.1948L37.1117 7.00605L24.5043 9.79724Z" />
+                                <path class="fill-primary" d="M31.9171 17.6837L23.2697 20.6189L30.6333 30.3865L40.723 26.6545L31.9171 17.6837Z" />
+                                <path class="fill-primary" d="M28.4204 27.86L21.4605 22.2312L16.332 33.3249L24.7296 39.7347L28.4204 27.86Z" />
+                                <path class="fill-primary" d="M17.5913 29.998L19.1912 21.3633L6.63465 22.8288L5.04812 33.0511L17.5913 29.998Z" />
+                                <path class="fill-primary" d="M10.2917 22.1777L18.8717 19.0632L11.2859 9.45346L1.28177 13.3945L10.2917 22.1777Z" />
+                                <path class="fill-primary" d="M13.7243 12.2243L20.8121 17.7054L25.6875 6.50938L17.1442 0.277556L13.7243 12.2243Z" />
+                            </g>
+                        </svg>
+                        <h5 class="mb-0 text-white">Astrax</h5>
+                    </a>
+                    <div class="d-none d-lg-flex align-self-stretch z-35 position-relative">
+                        <ul class="navbar-nav mx-auto gap-4 align-items-lg-center">
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="index.html"> Home </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="about.html"> About </a>
+                            </li>
+                            <li class="nav-item dropdown menu-item-has-children">
+                                <a class="nav-link text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Pages </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-capitalize" href="features.html">Features</a></li>
+                                    <li><a class="dropdown-item text-capitalize" href="team.html">Team</a></li>
+                                    <li><a class="dropdown-item text-capitalize" href="pricing.html">Pricing</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown menu-item-has-children">
+                                <a class="nav-link text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Blog </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-capitalize" href="blog.html">Blog</a></li>
+                                    <li><a class="dropdown-item text-capitalize" href="blog-details.html">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex align-items-center gap-4 align-self-stretch">
+                        <a href="contact.html" class="btn btn-dashed d-none d-md-flex">
+                            request demo
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <g clip-path="url(#clip0_1114_1219)">
+                                    <path d="M15.8167 7.55759C15.8165 7.5574 15.8163 7.55719 15.8161 7.557L12.5504 4.307C12.3057 4.06353 11.91 4.06444 11.6665 4.30912C11.423 4.55378 11.4239 4.9495 11.6686 5.193L13.8612 7.375H0.625C0.279813 7.375 0 7.65481 0 8C0 8.34519 0.279813 8.625 0.625 8.625H13.8612L11.6686 10.807C11.4239 11.0505 11.423 11.4462 11.6665 11.6909C11.91 11.9356 12.3058 11.9364 12.5504 11.693L15.8162 8.443C15.8163 8.44281 15.8165 8.44259 15.8167 8.4424C16.0615 8.19809 16.0607 7.80109 15.8167 7.55759Z" fill="#B1E346" />
+                                </g>
+                            </svg>
+                        </a>
+                        <div class="burger-icon burger-icon-white border rounded-3 top-0 end-0">
+                            <span class="burger-icon-top"></span>
+                            <span class="burger-icon-mid"></span>
+                            <span class="burger-icon-bottom"></span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="mobile-menu-overlay"></div>
+            <div class="mobile-header-active mobile-header-wrapper-style">
+                <div class="mobile-header-wrapper-inner">
+                    <div class="mobile-header-logo">
+                        <a class="d-flex align-items-center gap-2" href="index.html">
+                            <svg class="fill-primary" xmlns="http://www.w3.org/2000/svg" width="35" height="40" viewBox="0 0 35 40" fill="none">
+                                <g clip-path="url(#clip0_349_1513)">
+                                    <path d="M3.3335 31.9045V11.9335L17.4985 3.8395L31.667 11.9335V28.065L17.4985 36.1605L10 31.875V15.802L17.4985 11.517L25 15.802V24.196L17.4985 28.4815L16.667 28.0065V19.6715L20.858 17.2755L17.4985 15.3565L13.3335 17.738V29.94L17.4985 32.321L28.3335 26.1295V13.8685L17.4985 7.679L6.667 13.8685V33.8085L17.4985 40L35 30V10L17.4985 0L0 10V30L3.3335 31.9045Z" fill="#794AFF" />
+                                </g>
+                            </svg>
+                            <h5 class="mb-0">Astrax</h5>
+                        </a>
+                        <div class="burger-icon burger-icon-white border rounded-circle">
+                            <span class="burger-icon-top"></span>
+                            <span class="burger-icon-mid"></span>
+                            <span class="burger-icon-bottom"></span>
+                        </div>
+                    </div>
+                    <div class="mobile-header-content-area">
+                        <div class="perfect-scroll">
+                            <div class="mobile-menu-wrap mobile-header-border">
+                                <nav>
+                                    <ul class="mobile-menu ps-0">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About us</a></li>
+                                        <li class="has-children">
+                                            <a href="#">Pages</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="features.html">Features</a></li>
+                                                <li><a href="team.html">Team</a></li>
+                                                <li><a href="pricing.html">Pricing</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href="#">Blog</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="blog.html">Blog</a></li>
+                                                <li><a href="blog-details.html">Blog Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tgmobile__menu-bottom mt-auto">
+                        <div class="contact-info">
+                            <ul class="list-wrap">
+                                <li><span class="opacity-50">Mail:</span> <a href="mailto:info@valom.com">info@astrax.com</a></li>
+                                <li><span class="opacity-50">Phone:</span> <a href="tel:0123456789">+123 888 9999</a></li>
+                            </ul>
+                        </div>
+                        <div class="social-links">
+                            <div class="social-icons gap-4 mt-4">
+                                <a href="#" class="border border-opacity-10 border-white icon-shape icon-md">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="#" class="border border-opacity-10 border-white icon-shape icon-md">
+                                    <i class="bi bi-twitter-x"></i>
+                                </a>
+                                <a href="#" class="border border-opacity-10 border-white icon-shape icon-md">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="#" class="border border-opacity-10 border-white icon-shape icon-md">
+                                    <i class="bi bi-behance"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <!--prettier-ignore-->
+        <!--fintech-app home section header-->
+        <section class="fintech-app-home-section-header position-relative pt-200 pb-120-keep" data-background="assets/imgs/pages/fintech-app/page-home/home-section-1/img-bg.png">
+            <div class="container position-relative text-lg-start text-center">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 mx-lg-auto">
+                        <div class="text-center">
+                            <h1 class="mb-2 text-anime-style-2">Features</h1>
+                            <p class="text-white text-opacity-75 pb-3 text-anime-style-1">Astrax helps you optimize your spending, boost your savings, and make informed decisions for your future.</p>
+                            <div class="d-flex align-items-center justify-content-center gap-4">
+                                <a href="#" class="rounded-4 overflow-hidden hover-up">
+                                    <img data-aos="fade-up" data-aos-delay="0" class="shadow" src="assets/imgs/template/icons/app-1.png" alt="AstraX" />
+                                </a>
+                                <a href="#" class="rounded-4 overflow-hidden hover-up">
+                                    <img data-aos="fade-up" data-aos-delay="200" class="shadow" src="assets/imgs/template/icons/app-2.png" alt="AstraX" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--fintech-app features section 1-->
+        <section class="fintech-app-features-section-1 position-relative py-120 bg-dark-3">
+            <div class="container position-relative z-1 mb-80">
+                <div class="row flex-wrap align-items-center">
+                    <div class="col-lg-6 swipper-root">
+                        <span class="content-top btn-text text-white">roi checker banking</span>
+                        <h2 class="text-white lh-sm position-relative wow img-custom-anim-left">
+                            Astrax Amazing
+                            <span class="stroke-primary text-dark">Features</span>
+                        </h2>
+                    </div>
+                    <div class="col-lg-6 ms-lg-auto text-center mt-3 mt-lg-0">
+                        <div class="position-relative d-flex align-items-center justify-content-lg-end">
+                            <a href="features.html" class="btn btn-dashed">
+                                <span> read more </span>
+                                <i class="fa-solid fa-arrow-right-long text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container features pt-md-0 pt-8">
+                <div class="row align-items-center mb-10">
+                    <div class="col-lg-6">
+                        <div class="position-relative">
+                            <div class="circle">
+                                <img src="assets/imgs/pages/fintech-app/page-features/circle.png" alt="AstraX" />
+                            </div>
+                            <img class="position-absolute bottom-0 start-0" data-aos="fade-up" src="assets/imgs/pages/fintech-app/page-features/box-1.png" alt="AstraX" />
+                            <img class="top-0 end-0 position-absolute pe-8 d-none d-md-block" data-aos="fade-right" src="assets/imgs/pages/fintech-app/page-features/box-2.png" alt="AstraX" />
+                            <div class="top-50 end-0 position-absolute pe-8 translate-middle-y pt-8 d-none d-md-block">
+                                <img data-aos="fade-left" src="assets/imgs/pages/fintech-app/page-features/box-3.png" alt="AstraX" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 mt-lg-0 mt-8 offset-lg-1">
+                        <span class="btn-text text-primary fs-18">Money Transfers for You</span>
+                        <h5 class="my-3 text-anime-style-2">Send Money Anywhere, Anytime</h5>
+                        <p>Astrax is designed to simplify your financial life with innovative features tailored to your needs. Track expenses in real time, create personalized budgets, and set smart financial goals stay on track. Explore investment opportunities with ease and gain valuable insights into your financial.</p>
+                        <a href="#" class="btn btn-dashed mt-5">
+                            <span> Start Your Transfer </span>
+                            <i class="fa-solid fa-arrow-right-long text-primary"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row align-items-center mb-10">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="position-relative text-center">
+                            <div class="img">
+                                <img class="rounded-2" src="assets/imgs/pages/fintech-app/page-features/img-1.png" alt="AstraX" />
+                            </div>
+                            <div class="top-0 end-0 position-absolute translate-middle-y mt-8 shadow">
+                                <img class="d-none d-md-block" data-aos="fade-up" src="assets/imgs/pages/fintech-app/page-features/box-4.png" alt="AstraX" />
+                            </div>
+                            <div class="position-absolute top-0 start-0 ms-9 mt-5">
+                                <ul class="list-unstyled d-flex flex-column gap-3">
+                                    <li class="ps-5" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="bg-white rounded-3 px-3 py-2 d-flex align-items-center">
+                                            <div class="icon-shape icon-xs rounded-circle bg-primary">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none">
+                                                    <path d="M2.35742 7.6187L4.25338 9.83065L8.99326 4.30078" stroke="#292929" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                            <p class="text-dark fw-semibold mb-0 ms-2 fs-18">Smooth Payment</p>
+                                        </div>
+                                    </li>
+                                    <li class="pe-5" data-aos="fade-up" data-aos-delay="400">
+                                        <div class="bg-white rounded-3 px-3 py-2 d-flex align-items-center">
+                                            <div class="icon-shape icon-xs rounded-circle bg-primary">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none">
+                                                    <path d="M2.35742 7.6187L4.25338 9.83065L8.99326 4.30078" stroke="#292929" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                            <p class="text-dark fw-semibold mb-0 ms-2 fs-18">Fast Checkouts</p>
+                                        </div>
+                                    </li>
+                                    <li class="ms-5" data-aos="fade-up" data-aos-delay="600">
+                                        <div class="bg-white rounded-3 px-3 py-2 d-flex align-items-center">
+                                            <div class="icon-shape icon-xs rounded-circle bg-primary">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none">
+                                                    <path d="M2.35742 7.6187L4.25338 9.83065L8.99326 4.30078" stroke="#292929" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                            <p class="text-dark fw-semibold mb-0 ms-2 fs-18">Less Workouts</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-lg-0 mt-8 order-lg-1">
+                        <span class="btn-text text-primary fs-18">Money, Moving Smarter</span>
+                        <h5 class="my-3 text-anime-style-2">Seamless Transfers, Every Time</h5>
+                        <p>Sending money has never been easier. With Astrax, you can transfer funds instantly to friends, family, or businesses across the globe. Our service combines speed and security, ensuring your money reaches its destination without delays or hidden fees. Enjoy competitive exchange</p>
+                        <a href="#" class="btn btn-dashed mt-5">
+                            <span> Start Your Transfer </span>
+                            <i class="fa-solid fa-arrow-right-long text-primary"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="position-relative">
+                            <div class="circle wow img-custom-anim-top">
+                                <img src="assets/imgs/pages/fintech-app/page-features/box-5.png" alt="AstraX" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 mt-lg-0 mt-8 offset-lg-1">
+                        <span class="btn-text text-primary fs-18">Future of Money Transfers</span>
+                        <h5 class="my-3 text-anime-style-2">Easy And Secure Money Transfers</h5>
+                        <p>Astrax takes the stress out of money transfers by combining speed, an simplicity, and reliability. Whether you're supporting loved ones, paying bills, or managing business transactions, Astrax ensures your money of effortlessly across borders. With competitive rates, transparent fees.</p>
+                        <a href="#" class="btn btn-dashed mt-5">
+                            <span> Start Your Transfer </span>
+                            <i class="fa-solid fa-arrow-right-long text-primary"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--fintech-app-features-section-3-->
+        <section class="fintech-app-features-section-3 position-relative bg-dark py-120">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="text-center mb-80">
+                        <span class="content-top btn-text text-white">roi checker banking</span>
+                        <h2 class="my-3 text-white text-anime-style-2">
+                            Endless Financial
+                            <span class="text-primary">Possibilities</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                        <div class="card-feature bg-white bg-opacity-25 rounded-4 text-center p-5 position-relative">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="57" height="56" viewBox="0 0 57 56" fill="none">
+                                    <g opacity="0.4">
+                                        <path d="M52.1987 22.9535C52.4036 23.157 52.4055 23.4822 52.4094 24.1323C52.4167 25.3069 52.4167 26.5503 52.4167 27.8665V28.1335C52.4167 33.2451 52.4167 37.2601 51.9953 40.3947C51.5634 43.6067 50.6604 46.1554 48.6579 48.1579C46.6554 50.1604 44.1067 51.0634 40.8947 51.4953C37.7601 51.9167 33.7451 51.9167 28.6335 51.9167H28.3665C27.0503 51.9167 25.8069 51.9167 24.6323 51.9094C23.9822 51.9055 23.657 51.9036 23.4535 51.6987C23.25 51.4941 23.25 51.1674 23.25 50.5143V24.15C23.25 23.4901 23.25 23.1601 23.455 22.955C23.6601 22.75 23.9901 22.75 24.65 22.75H51.0143C51.6674 22.75 51.9941 22.75 52.1987 22.9535Z" fill="white" />
+                                        <path d="M18.3526 22.75C19.0126 22.75 19.3425 22.75 19.5476 22.955C19.7526 23.1601 19.7526 23.4901 19.7526 24.15V50.3349C19.7526 51.0279 19.7526 51.3744 19.5292 51.5821C19.3058 51.7897 18.9666 51.7648 18.2881 51.7153C17.5179 51.6591 16.792 51.5872 16.108 51.4953C12.8958 51.0634 10.3472 50.1604 8.34473 48.1579C6.34228 46.1554 5.43919 43.6067 5.00731 40.3947C4.58589 37.2601 4.58591 33.2451 4.58594 28.1335V27.8665C4.58594 26.5505 4.58591 25.3066 4.5931 24.1323C4.59709 23.4822 4.59907 23.157 4.80385 22.9535C5.0086 22.75 5.33512 22.75 5.98818 22.75H18.3526Z" fill="white" />
+                                    </g>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M29.0859 30.332C29.0859 29.3656 29.8695 28.582 30.8359 28.582H40.1693C41.1357 28.582 41.9193 29.3656 41.9193 30.332C41.9193 31.2985 41.1357 32.082 40.1693 32.082H30.8359C29.8695 32.082 29.0859 31.2985 29.0859 30.332Z" fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M29.0859 39.668C29.0859 38.7015 29.8695 37.918 30.8359 37.918H35.5026C36.4691 37.918 37.2526 38.7015 37.2526 39.668C37.2526 40.6344 36.4691 41.418 35.5026 41.418H30.8359C29.8695 41.418 29.0859 40.6344 29.0859 39.668Z" fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M28.3662 4.08203H28.6331C33.7448 4.08201 37.7597 4.08199 40.8943 4.50341C44.1064 4.93528 46.6551 5.83838 48.6576 7.84082C50.66 9.84329 51.563 12.3919 51.9949 15.6041C52.0869 16.2881 52.1587 17.014 52.215 17.7842C52.2644 18.4627 52.2894 18.8019 52.0817 19.0253C51.8741 19.2487 51.5276 19.2487 50.8346 19.2487H6.16485C5.47187 19.2487 5.12539 19.2487 4.91773 19.0253C4.71006 18.8019 4.73482 18.4627 4.78433 17.7842C4.84054 17.014 4.91243 16.2881 5.00439 15.6041C5.43626 12.3919 6.33936 9.84329 8.3418 7.84082C10.3443 5.83838 12.8929 4.93528 16.1051 4.50341C19.2397 4.08199 23.2546 4.08201 28.3662 4.08203ZM14.498 11.6654C14.498 10.3767 15.538 9.33203 16.8209 9.33203H16.8418C18.1247 9.33203 19.1647 10.3767 19.1647 11.6654C19.1647 12.954 18.1247 13.9987 16.8418 13.9987H16.8209C15.538 13.9987 14.498 12.954 14.498 11.6654ZM26.1542 9.33203C24.8713 9.33203 23.8314 10.3767 23.8314 11.6654C23.8314 12.954 24.8713 13.9987 26.1542 13.9987H26.1752C27.4581 13.9987 28.498 12.954 28.498 11.6654C28.498 10.3767 27.4581 9.33203 26.1752 9.33203H26.1542Z" fill="white" />
+                                </svg>
+                            </div>
+                            <h6 class="mt-4">Interactive Tools</h6>
+                            <p class="text-white text-opacity-75">Efficiently managing your social media & presence is the cornerstone of a successful online strategy, & social media scheduling.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card-feature bg-white bg-opacity-25 rounded-4 text-center p-5 position-relative">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="57" height="56" viewBox="0 0 57 56" fill="none">
+                                    <path d="M33.4537 5.65731L31.9067 3.52275C31.6913 3.22553 31.5838 3.07694 31.4195 3.00022C31.2555 2.92353 31.0814 2.93561 30.7333 2.95981C26.7673 3.23535 23.1535 4.7904 20.3014 7.2152C20.1507 7.34326 20.2431 7.57633 20.4404 7.58795C22.7286 7.72266 23.9463 8.9939 25.28 10.4039C27.3415 12.5834 28.9625 12.4032 29.7225 12.0015C30.033 11.8374 30.0902 11.7212 30.1098 11.6812L30.1112 11.6783C30.1733 11.553 30.1992 11.4191 30.2916 10.9121C30.3688 10.4883 30.503 9.76092 30.9678 9.05858C31.4594 8.31586 32.1932 7.77439 33.1609 7.39074C33.5643 7.23081 33.6884 7.00691 33.7332 6.79579C33.789 6.5327 33.744 6.11406 33.4537 5.65731Z" fill="white" />
+                                    <path d="M35.6673 38.1581C35.9354 38.3826 36.0694 38.495 36.2388 38.5314C36.4082 38.5678 36.568 38.523 36.8879 38.4337C42.648 36.8202 47.2463 32.4246 49.1442 26.7866C49.3932 26.0467 49.5178 25.6769 49.3082 25.3852C49.0987 25.0938 48.6869 25.0938 47.8632 25.0938H47.1693C46.0031 25.0938 45.3647 25.524 44.4283 26.1687L44.3949 26.1916C43.4266 26.8582 42.0126 27.8319 39.826 27.3944C36.9446 26.8179 35.5668 26.9712 34.9727 27.2458C34.7513 27.3482 34.6624 27.4563 34.5996 27.5827C34.5163 27.7507 34.433 28.0576 34.433 28.5982L34.4332 28.8017C34.4337 29.9945 34.4342 30.8958 34.2295 31.7179C34.0165 32.5733 33.593 33.3006 33.0717 34.1961L32.9826 34.3489C32.6443 34.9313 32.5796 35.2538 32.5864 35.4038C32.5887 35.4545 32.5988 35.4976 32.6338 35.5578C32.6744 35.6271 32.7756 35.7627 33.0197 35.9438C33.0477 35.9643 33.075 35.9858 33.1014 36.0082L35.6673 38.1581Z" fill="white" />
+                                    <path opacity="0.4" d="M36.7593 4.4677C36.5315 3.97182 36.4177 3.72388 36.5175 3.61013C36.6172 3.4964 36.8563 3.57018 37.3347 3.71779C44.7164 5.99606 50.0807 12.8763 50.0807 21.0102C50.0807 21.3355 49.8131 21.5939 49.4878 21.5939H47.1641C44.8928 21.5939 43.4849 22.5647 42.5182 23.2313L42.4393 23.2856C41.5032 23.93 41.1744 24.0961 40.5073 23.9624C37.5554 23.3718 35.1903 23.2871 33.4994 24.069C32.5786 24.4946 31.8896 25.162 31.46 26.0262C31.0512 26.8494 30.9278 27.7492 30.9278 28.6004C30.9278 30.0883 30.9152 30.5235 30.8282 30.873C30.75 31.1871 30.603 31.4701 29.952 32.5906C29.5012 33.366 29.0331 34.4015 29.0847 35.5612C29.1407 36.8277 29.7924 37.8994 30.8856 38.7256C31.0281 38.8451 30.9378 39.074 30.7523 39.0614C21.346 38.4214 13.9141 30.5842 13.9141 21.0102C13.9141 17.7969 14.7512 14.7792 16.2193 12.1636C16.5022 11.6596 16.6436 11.4076 16.9167 11.2477C17.1897 11.0879 17.504 11.0879 18.1325 11.0879H20.2748C21.0086 11.1397 21.3815 11.3851 22.7312 12.8121C25.5679 15.8111 28.8451 16.4234 31.3506 15.0989C32.2569 14.6199 32.8659 13.9902 33.2404 13.2344C33.5379 12.6339 33.6473 12.0038 33.7089 11.6492L33.728 11.541C33.8018 11.1362 33.8449 11.0448 33.8792 10.993C33.8904 10.9756 33.9847 10.8292 34.4432 10.6474C35.9132 10.0647 36.8563 8.90666 37.1499 7.52453C37.3739 6.46987 37.1956 5.41783 36.7593 4.4677Z" fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.3422 3.03884C18.2406 3.9628 18.2197 5.44005 17.2958 6.33834C13.407 10.1192 11.0026 15.3766 11.0026 21.1912C11.0026 32.6647 20.3864 41.9987 32.0026 41.9987C37.733 41.9987 42.9205 39.7277 46.7094 36.044C47.6334 35.1457 49.1106 35.1667 50.0089 36.0905C50.9073 37.0145 50.8865 38.4917 49.9625 39.39C45.3339 43.8901 38.9909 46.6654 32.0026 46.6654V48.9987H34.3359C35.6246 48.9987 36.6693 50.0433 36.6693 51.332C36.6693 52.6207 35.6246 53.6654 34.3359 53.6654H25.0026C23.714 53.6654 22.6693 52.6207 22.6693 51.332C22.6693 50.0433 23.714 48.9987 25.0026 48.9987H27.3359V46.2451C15.4007 44.0681 6.33594 33.693 6.33594 21.1912C6.33594 14.0591 9.29187 7.61131 14.0428 2.99239C14.9667 2.09408 16.444 2.11488 17.3422 3.03884Z" fill="white" />
+                                </svg>
+                            </div>
+                            <h6 class="mt-4">Personalized Notification</h6>
+                            <p class="text-white text-opacity-75">Improve your social media game with our cutting-edge scheduling solutions at Quip. Our platform goes beyond the basics.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                        <div class="card-feature bg-white bg-opacity-25 rounded-4 text-center p-5">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
+                                    <path d="M30.6824 5.7746C31.1077 5.08669 31.8586 4.66797 32.6673 4.66797C41.6959 4.66797 49.0007 11.9726 49.0007 21.0013C49.0007 22.29 47.956 23.3346 46.6673 23.3346C45.3786 23.3346 44.334 22.29 44.334 21.0013C44.334 16.5201 41.8177 12.6353 38.1187 10.6805L36.2464 12.5528C35.8918 12.9075 35.4876 13.2432 34.9909 13.3127C34.0258 13.448 33.0402 12.9646 32.5803 12.0448L30.5804 8.04479C30.2187 7.32151 30.2572 6.46251 30.6824 5.7746Z" fill="white" />
+                                    <path d="M9.33333 32.668C10.622 32.668 11.6667 33.7126 11.6667 35.0013C11.6667 39.4825 14.183 43.3672 17.882 45.3221L19.7544 43.4498C20.109 43.0952 20.5131 42.7594 21.0098 42.6899C21.9749 42.5548 22.9604 43.038 23.4204 43.9578L25.4203 47.9578C25.7819 48.6812 25.7434 49.5401 25.3183 50.2279C24.8929 50.9158 24.1421 51.3346 23.3333 51.3346C14.3047 51.3346 7 44.0299 7 35.0013C7 33.7126 8.04468 32.668 9.33333 32.668Z" fill="white" />
+                                    <g opacity="0.4">
+                                        <path d="M33.6752 43.1531C38.0656 40.8396 43.6036 40.8396 47.9937 43.1531C48.1039 43.211 48.249 43.2833 48.42 43.3682C49.2372 43.7749 50.6435 44.4745 51.6027 45.3054C52.1905 45.8145 52.9248 46.626 53.0625 47.74C53.2167 48.9874 52.571 50.0294 51.6489 50.8069C50.1871 52.0394 48.3601 53.0847 45.9787 53.0847H35.6905C33.3089 53.0847 31.4819 52.0394 30.0203 50.8069C29.0982 50.0294 28.4525 48.9874 28.6068 47.74C28.7442 46.626 29.4787 45.8145 30.0665 45.3054C31.0257 44.4745 32.4318 43.7749 33.2492 43.3682C33.4202 43.2833 33.5653 43.211 33.6752 43.1531Z" fill="white" />
+                                        <path d="M33.834 33.25C33.834 29.4005 36.9516 26.25 40.834 26.25C44.7164 26.25 47.834 29.4005 47.834 33.25C47.834 37.0995 44.7164 40.25 40.834 40.25C36.9516 40.25 33.834 37.0995 33.834 33.25Z" fill="white" />
+                                    </g>
+                                    <g opacity="0.4">
+                                        <path d="M8.00745 19.821C12.3978 17.5076 17.9356 17.5076 22.3259 19.821C22.4359 19.8789 22.5811 19.9512 22.7521 20.0363C23.5693 20.4428 24.9756 21.1424 25.9348 21.9733C26.5226 22.4825 27.2569 23.2938 27.3946 24.4079C27.5488 25.6553 26.9032 26.6973 25.981 27.4748C24.5192 28.7073 22.6923 29.7526 20.3107 29.7526H10.0227C7.64112 29.7526 5.81412 28.7073 4.35242 27.4748C3.43022 26.6973 2.7847 25.6553 2.93877 24.4079C3.07639 23.2938 3.81076 22.4825 4.3986 21.9733C5.35781 21.1424 6.76402 20.4428 7.58131 20.0363C7.75228 19.9512 7.8975 19.8789 8.00745 19.821Z" fill="white" />
+                                        <path d="M8.16602 9.91797C8.16602 6.06848 11.2835 2.91797 15.166 2.91797C19.0485 2.91797 22.166 6.06848 22.166 9.91797C22.166 13.7675 19.0485 16.918 15.166 16.918C11.2835 16.918 8.16602 13.7675 8.16602 9.91797Z" fill="white" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <h6 class="mt-4">24/7 Support</h6>
+                            <p class="text-white text-opacity-75">Our social media scheduling tools not only simplify the process but also empower you to strategically plan & execute manage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--fintech-app home section 7-->
+        <section class="fintech-app-home-section-7 position-relative bg-dark @@classList">
+            <div class="position-absolute bottom-50 start-50 translate-middle-x w-100 h-50 bg-dark rounded-bottom-5"></div>
+            <div class="container overflow-hidden">
+                <div class="position-relative z-1 text-center bg-primary rounded-3 py-120 px-md-4 px-3">
+                    <div class="position-relative z-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <path d="M24.7266 31.7578H35.2734V35.2734H24.7266V31.7578Z" fill="#292929" />
+                            <path d="M48.6772 35.2742H38.7891V37.032C38.7891 38.0034 38.0026 38.7898 37.0312 38.7898H22.9688C21.9974 38.7898 21.2109 38.0034 21.2109 37.032V35.2742H11.3228C9.04999 35.2742 7.03995 33.8254 6.32034 31.6693L0 12.7051V51.0945C0 54.0022 2.36572 56.368 5.27344 56.368H54.7266C57.6343 56.368 60 54.0022 60 51.0945V12.7065L53.6792 31.6693C52.9601 33.8254 50.95 35.2742 48.6772 35.2742Z" fill="#292929" />
+                            <path opacity="0.4" d="M37.0322 3.63281H22.9697C20.062 3.63281 17.6963 5.99854 17.6963 8.90625V10.6641H3.02539L9.65518 30.5562C9.89551 31.2753 10.5666 31.7578 11.3237 31.7578H21.2119V30C21.2119 29.0286 21.9983 28.2422 22.9697 28.2422H37.0322C38.0036 28.2422 38.79 29.0286 38.79 30V31.7578H48.6782C49.4353 31.7578 50.1064 31.2753 50.3467 30.5562L56.977 10.6641H42.3056V8.90625C42.3056 5.99854 39.9399 3.63281 37.0322 3.63281ZM21.2119 10.6641V8.90625C21.2119 7.93625 21.9997 7.14844 22.9697 7.14844H37.0322C38.0022 7.14844 38.79 7.93625 38.79 8.90625V10.6641H21.2119Z" fill="#292929" />
+                        </svg>
+                        <h2 class="text-dark pt-4 text-anime-style-3">
+                            Astrax on a journey of <br />
+                            learning and skill-building today
+                        </h2>
+                        <p class="text-dark py-3">Download our app from here:</p>
+                        <div class="d-flex align-items-center justify-content-center gap-4">
+                            <a href="#" class="rounded-4 overflow-hidden hover-up">
+                                <img data-aos="fade-up" data-aos-delay="200" class="shadow" src="assets/imgs/template/icons/app-1.png" alt="AstraX" />
+                            </a>
+                            <a href="#" class="rounded-4 overflow-hidden hover-up">
+                                <img data-aos="fade-up" data-aos-delay="400" class="shadow" src="assets/imgs/template/icons/app-2.png" alt="AstraX" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="position-absolute bottom-0 end-0 me-lg-10 z-0 opacity-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="679" height="525" viewBox="0 0 679 525" fill="none">
+                            <path d="M64.6699 618.947V231.51L339.471 74.4863L614.34 231.51V544.461L339.471 701.514L194 618.375V306.559L339.471 223.43L485 306.559V469.402L339.471 552.541L323.34 543.326V381.627L404.645 335.145L339.471 297.916L258.67 344.117V580.836L339.471 627.027L549.67 506.912V269.049L339.471 148.973L129.34 269.049V655.885L339.471 776L679 582V194L339.471 0L0 194V582L64.6699 618.947Z" fill="#292929" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fintech-app home section 8-->
+        <section class="fintech-app-home-section-8 pt-120 pb-120 position-relative rounded-bottom-5 bg-dark">
+            <div class="container position-relative overflow-hidden">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <span class="content-top btn-text text-white">faq & a.</span>
+                        <h2 class="my-3 text-primary position-relative wow img-custom-anim-left">
+                            Get
+                            <span class="text-white">
+                                every answer <br class="d-block" />
+                                from
+                            </span>
+                            <span class="text-secondary"> here </span>
+                            <span class="stroke-primary text-dark">asap.</span>
+                        </h2>
+                    </div>
+                    <div class="col-lg-7 mt-lg-0 mt-8">
+                        <div class="accordion">
+                            <div class="px-0 card collapse-custom bg-dark border-0" data-aos="fade-up" data-aos-delay="100">
+                                <div class="p-0 card-header border-0">
+                                    <a class="collapsed py-4 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse1">
+                                        <span class="me-3 arrow"></span>
+                                        <h6 class="mb-0 fs-20"><span class="text-white">What role do internships play?</span></h6>
+                                    </a>
+                                </div>
+                                <div id="collapse1" class="collapse bg-dark" data-bs-parent=".accordion">
+                                    <p class="px-3 fs-6 fw-regular text-white opacity-50 ps-5">You're in the middle of the design process, and stakeholders expect you to deliver faster. How do you best manage a situation like this? How do you communicate the design process and defend it when stakeholders think the design is taking too long?</p>
+                                </div>
+                            </div>
+                            <div class="px-0 card collapse-custom bg-dark border-0" data-aos="fade-up" data-aos-delay="100">
+                                <div class="p-0 card-header border-0">
+                                    <a class="py-4 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse2">
+                                        <span class="me-3 arrow"></span>
+                                        <h6 class="mb-0 fs-20"><span class="text-white">How do rankings affect choices?</span></h6>
+                                    </a>
+                                </div>
+                                <div id="collapse2" class="collapse show" data-bs-parent=".accordion">
+                                    <p class="px-3 fs-6 fw-regular text-white opacity-50 ps-5">You're in the middle of the design process, and stakeholders expect you to deliver faster. How do you best manage a situation like this? How do you communicate the design process and defend it when stakeholders think the design is taking too long?</p>
+                                </div>
+                            </div>
+                            <div class="px-0 card collapse-custom bg-dark border-0" data-aos="fade-up" data-aos-delay="100">
+                                <div class="p-0 card-header border-0">
+                                    <a class="collapsed py-4 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse3">
+                                        <span class="me-3 arrow"></span>
+                                        <h6 class="mb-0 fs-20"><span class="text-white">How valuable is studying abroad?</span></h6>
+                                    </a>
+                                </div>
+                                <div id="collapse3" class="collapse" data-bs-parent=".accordion">
+                                    <p class="px-3 fs-6 fw-regular text-white opacity-50 ps-5">You're in the middle of the design process, and stakeholders expect you to deliver faster. How do you best manage a situation like this? How do you communicate the design process and defend it when stakeholders think the design is taking too long?</p>
+                                </div>
+                            </div>
+                            <div class="px-0 card collapse-custom bg-dark border-0" data-aos="fade-up" data-aos-delay="100">
+                                <div class="p-0 card-header border-0">
+                                    <a class="collapsed py-4 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse4">
+                                        <span class="me-3 arrow"></span>
+                                        <h6 class="mb-0 fs-20"><span class="text-white">How can universities support students' well-being?</span></h6>
+                                    </a>
+                                </div>
+                                <div id="collapse4" class="collapse" data-bs-parent=".accordion">
+                                    <p class="px-3 fs-6 fw-regular text-white opacity-50 ps-5">You're in the middle of the design process, and stakeholders expect you to deliver faster. How do you best manage a situation like this? How do you communicate the design process and defend it when stakeholders think the design is taking too long?</p>
+                                </div>
+                            </div>
+                            <div class="px-0 card collapse-custom bg-dark border-0" data-aos="fade-up" data-aos-delay="100">
+                                <div class="p-0 card-header border-0">
+                                    <a class="collapsed py-4 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse5">
+                                        <span class="me-3 arrow"></span>
+                                        <h6 class="mb-0 fs-20"><span class="text-white">Are university degrees worth it?</span></h6>
+                                    </a>
+                                </div>
+                                <div id="collapse5" class="collapse" data-bs-parent=".accordion">
+                                    <p class="px-3 fs-6 fw-regular text-white opacity-50 ps-5">You're in the middle of the design process, and stakeholders expect you to deliver faster. How do you best manage a situation like this? How do you communicate the design process and defend it when stakeholders think the design is taking too long?</p>
+                                </div>
+                            </div>
+                            <div class="px-0 card collapse-custom bg-dark border-0" data-aos="fade-up" data-aos-delay=100">
+                                <div class="p-0 card-header border-0">
+                                    <a class="collapsed py-4 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse6">
+                                        <span class="me-3 arrow"></span>
+                                        <h6 class="mb-0 fs-20"><span class="text-white">Why is university education important?</span></h6>
+                                    </a>
+                                </div>
+                                <div id="collapse6" class="collapse" data-bs-parent=".accordion">
+                                    <p class="px-3 fs-6 fw-regular text-white opacity-50 ps-5">You're in the middle of the design process, and stakeholders expect you to deliver faster. How do you best manage a situation like this? How do you communicate the design process and defend it when stakeholders think the design is taking too long?</p>
+                                </div>
+                            </div>
+                            <div class="px-0 card collapse-custom bg-dark border-0" data-aos="fade-up" data-aos-delay=100">
+                                <div class="p-0 card-header border-0">
+                                    <a class="collapsed py-4 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse7">
+                                        <span class="me-3 arrow"></span>
+                                        <h6 class="mb-0 fs-20"><span class="text-white">How does university shape careers?</span></h6>
+                                    </a>
+                                </div>
+                                <div id="collapse7" class="collapse" data-bs-parent=".accordion">
+                                    <p class="px-3 fs-6 fw-regular text-white opacity-50 ps-5">You're in the middle of the design process, and stakeholders expect you to deliver faster. How do you best manage a situation like this? How do you communicate the design process and defend it when stakeholders think the design is taking too long?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!--prettier-ignore-->
+    <!-- Footer -->
+    <footer>
+        <div class="section-footer-18 position-relative overflow-hidden">
+            <div class="container-fluid">
+                <div class="container position-relative z-2">
+                    <div class="row align-items-center py-120">
+                        <div class="col-lg-5 col-md-10 col-11">
+                            <span class="content-top btn-text text-white">newsletter</span>
+                            <h2 class="my-3 text-primary position-relative wow img-custom-anim-left">
+                                Start
+                                <span class="text-white"> your free </span>
+                                <span class="stroke-primary text-dark">trail</span>
+                            </h2>
+                        </div>
+                        <div class="col-lg-7 ps-lg-10">
+                            <form class="input-group position-relative gap-2 wow img-custom-anim-top">
+                                <input type="text" class="form-control email-3 rounded-4" name="name" placeholder="Business email" />
+                                <div class="border border-0 rounded-end-4 bg-dark">
+                                    <button class="btn btn-primary text-dark h-100 fw-bold" type="submit" aria-label="join-with-us" data-aos="fade-zoom-in" data-aos-delay="100">
+                                        <span class="text-dark">join with us</span>
+                                        <i class="bi bi-arrow-right text-dark"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row pb-120 pt-120 border-top border-white border-opacity-25">
+                        <div class="col-lg-3 col-md-4 col-6 mb-5">
+                            <h6 class="pb-3">Company</h6>
+                            <div class="d-flex flex-column align-items-start">
+                                <a href="#">
+                                    <p class="hover-effect-1 text-white opacity-75">About</p>
+                                </a>
+                                <a href="#">
+                                    <p class="hover-effect-1 text-white opacity-75">Features</p>
+                                </a>
+                                <a href="#">
+                                    <p class="hover-effect-1 text-white opacity-75">Works</p>
+                                </a>
+                                <a href="#">
+                                    <p class="hover-effect-1 text-white opacity-75">Career</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <h6 class="pb-3">Help</h6>
+                            <div class="d-flex flex-column align-items-start">
+                                <a href="#">
+                                    <p class="hover-effect-1 text-white opacity-75">Customer Support</p>
+                                </a>
+                                <a href="#">
+                                    <p class="hover-effect-1 text-white opacity-75">Delivery Details</p>
+                                </a>
+                                <a href="#">
+                                    <p class="hover-effect-1 text-white opacity-75">Term & Condition</p>
+                                </a>
+                                <a href="#">
+                                    <p class="hover-effect-1 text-white opacity-75">Privacy Policy</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6 mb-5">
+                            <h6 class="pb-3">Resources</h6>
+                            <div class="d-flex flex-column align-items-start">
+                                <a href="#">
+                                    <p class="hover-effect-1 text-white opacity-75">Design Kit</p>
+                                </a>
+                                <a href="#">
+                                    <p class="hover-effect-1 text-white opacity-75">Development Tutorial</p>
+                                </a>
+                                <a href="#">
+                                    <p class="hover-effect-1 text-white opacity-75">How to - Blog</p>
+                                </a>
+                                <a href="#">
+                                    <p class="hover-effect-1 text-white opacity-75">Youtube Playlist</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <h6 class="pb-3">Get in touch</h6>
+                            <a href="#" class="d-flex gap-2">
+                                <div class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.05991 4.86069C9.34032 1.58029 14.6589 1.58029 17.9393 4.86069C21.2197 8.1411 21.2197 13.4597 17.9393 16.7401L11.9996 22.6798L6.05991 16.7401C2.77951 13.4597 2.77951 8.1411 6.05991 4.86069ZM11.9996 13.2004C13.3251 13.2004 14.3996 12.1259 14.3996 10.8004C14.3996 9.47491 13.3251 8.40039 11.9996 8.40039C10.6741 8.40039 9.59961 9.47491 9.59961 10.8004C9.59961 12.1259 10.6741 13.2004 11.9996 13.2004Z" fill="#B1E346" />
+                                    </svg>
+                                </div>
+                                <p class="text-white">123 Main Street, Springfield, Illinois, 62701, USA</p>
+                            </a>
+                            <a href="#" class="d-flex gap-2">
+                                <div class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M2.40439 7.06105L12.0003 11.859L21.5964 7.06099C21.524 5.80056 20.479 4.80078 19.2004 4.80078H4.80039C3.52181 4.80078 2.47675 5.8006 2.40439 7.06105Z" fill="#B1E346" />
+                                        <path d="M21.6004 9.74227L12.0003 14.5423L2.40039 9.74233V16.8008C2.40039 18.1263 3.47491 19.2008 4.80039 19.2008H19.2004C20.5259 19.2008 21.6004 18.1263 21.6004 16.8008V9.74227Z" fill="#B1E346" />
+                                    </svg>
+                                </div>
+                                <p class="text-white">support@astrax.com</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row gap-3 align-items-center justify-content-between py-4 border-top border-bottom border-opacity-25 border-white">
+                        <a class="d-flex gap-2" href="index.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <g>
+                                    <path class="fill-primary" d="M24.5043 9.79724L22.7082 18.3981L35.2929 17.1948L37.1117 7.00605L24.5043 9.79724Z" />
+                                    <path class="fill-primary" d="M31.9171 17.6837L23.2697 20.6189L30.6333 30.3865L40.723 26.6545L31.9171 17.6837Z" />
+                                    <path class="fill-primary" d="M28.4204 27.86L21.4605 22.2312L16.332 33.3249L24.7296 39.7347L28.4204 27.86Z" />
+                                    <path class="fill-primary" d="M17.5913 29.998L19.1912 21.3633L6.63465 22.8288L5.04812 33.0511L17.5913 29.998Z" />
+                                    <path class="fill-primary" d="M10.2917 22.1777L18.8717 19.0632L11.2859 9.45346L1.28177 13.3945L10.2917 22.1777Z" />
+                                    <path class="fill-primary" d="M13.7243 12.2243L20.8121 17.7054L25.6875 6.50938L17.1442 0.277556L13.7243 12.2243Z" />
+                                </g>
+                            </svg>
+                            <h5 class="mb-0 text-white"><strong class="fst-normal">Astrax</strong></h5>
+                        </a>
+                        <div class="d-flex align-items-center justify-content-center flex-wrap gap-md-5 gap-3">
+                            <a href="#"> <span class="btn-text text-white">About</span> </a>
+                            <a href="#"> <span class="btn-text text-white">Solutions</span> </a>
+                            <a href="#"> <span class="btn-text text-white">Pricing</span> </a>
+                            <a href="#">
+                                <span class="btn-text text-white">Resources</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row gap-3 align-items-center py-4 justify-content-between">
+                        <div class="d-flex flex-md-row flex-column gap-2 align-items-center">
+                            <p class="text-white opacity-50 mb-0">Copyright &amp; design by</p>
+                            <a href="#" class="text-white">
+                                <span class="text-white opacity-100 fw-medium">©Alithemes</span>
+                            </a>
+                            <p class="text-white opacity-50 mb-0">2025, All Rights Reserved</p>
+                        </div>
+                        <ul class="list-unstyled d-flex mb-0 justify-content-center ms-lg-auto">
+                            <li>
+                                <a href="#">
+                                    <span class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                            <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"></path>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="ms-3">
+                                <a href="#">
+                                    <span class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="ms-3">
+                                <a href="#">
+                                    <span class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                            <path d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2 .6-8.7 .6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z"></path>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="ms-3">
+                                <a href="#">
+                                    <span class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                            <path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"></path>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll top -->
+    <div class="btn-scroll-top">
+        <svg class="progress-square svg-content" width="100%" height="100%" viewBox="0 0 40 40">
+            <path d="M8 1H32C35.866 1 39 4.13401 39 8V32C39 35.866 35.866 39 32 39H8C4.13401 39 1 35.866 1 32V8C1 4.13401 4.13401 1 8 1Z" />
+        </svg>
+    </div>
+
+    <!-- Libs JS -->
+    <script src="assets/js/vendors/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/aos.js"></script>
+    <script src="assets/js/vendors/wow.min.js"></script>
+    <script src="assets/js/vendors/headhesive.min.js"></script>
+    <script src="assets/js/vendors/smart-stick-nav.js"></script>
+    <script src="assets/js/vendors/jquery.carouselTicker.min.js"></script>
+    <script src="assets/js/vendors/jquery.odometer.min.js"></script>
+    <script src="assets/js/vendors/jquery.appear.js"></script>
+    <script src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/vendors/gsap.min.js"></script>
+    <script src="assets/js/vendors/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/vendors/ScrollTrigger.min.js"></script>
+    <script src="assets/js/vendors/aat.min.js"></script>
+    <script src="assets/js/vendors/Splitetext.js"></script>
+    <script src="assets/js/vendors/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/vendors/isotope.pkgd.min.js"></script>
+    <!-- Theme JS -->
+    <script src="assets/js/gsap-custom.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
