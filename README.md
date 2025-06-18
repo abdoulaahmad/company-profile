@@ -45,12 +45,12 @@ A modern, responsive landing page template built for fintech and digital service
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Bugyman66/virtualconnekt-portofolio.git
+   git clone https://github.com/abdoulaahmad/company-profile.git
    ```
 
 2. **Navigate to the project directory**
    ```bash
-   cd virtualconnekt-portofolio
+   cd company-profile
    ```
 
 3. **Open in browser**
@@ -113,13 +113,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/Bugyman66/virtualconnekt-portofolio/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/abdoulaahmad/company-profile/issues).
 
 ## 👨‍💻 Author
 
 **Virtual Connekt**
 - Website: [virtualconnekt.com.ng](https://virtualconnekt.com.ng)
-- GitHub: [@Bugyman66](https://github.com/Bugyman66)
+- GitHub: [@abdoulaahmad](https://github.com/abdoulaahmad)
 
 ## 🌟 Acknowledgments
 
