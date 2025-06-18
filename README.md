@@ -1,4 +1,4 @@
-# Virtual Connekt - Modern Fintech Landing Page
+# Virtual Connekt - Modern Tech Landing Page
 
 A modern, responsive landing page template built for fintech and digital services companies. This template features a clean, professional design with interactive elements and smooth animations.
 
