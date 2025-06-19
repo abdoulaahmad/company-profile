@@ -1,5 +1,6 @@
 # Dependencies
 node_modules/
+vendor/
 
 # IDE - VSCode
 .vscode/*
@@ -17,3 +18,14 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# PHP specific
+# SMTP configuration (contains sensitive information)
+smtp-config.php
+
+# Test files (remove after testing)
+test-email.php
+
+# Temporary files
+*.tmp
+*.temp
